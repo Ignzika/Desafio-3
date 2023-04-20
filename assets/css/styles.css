@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&family=Raleway:wght@300;500&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "raleway", sans-serif;
+    background-color: black;
+    color:white;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 3rem;
+    
+}
+
+.iguana1{
+    height: 42rem;
+    background-image:url(../img/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+
+}
+
+.iguana1 img{
+    width: 100%;
+
+}
+
+.descripcion { /*texto e imagen */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-top: 45px;
+    padding-bottom: 66px;
+    font-weight: 300;
+}
+
+.descripcion>div>p{
+    font-style: normal;
+    justify-content:left;
+    width: 475px;
+    
+}
+
+
+.descripcion>div>img{
+    width: 399px;
+    height: 237px;
+    border-radius: 50%;
+
+}
+
+.Caracteristicas{
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 20px;
+}
+
+.Caracteristicas>h2{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.caraa{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.5rem ;
+   
+}
+
+.caraa div{
+    font-size: 1rem ;
+    transition: all linear 0.5s;
+}
+
+.caraa div:hover{
+    transform: scale(1.5);
+    font-size: 1.2rem;
+    background: rgb(129,163,131);
+    background: linear-gradient(90deg, rgba(129,163,131,1) 15%, rgba(101,189,174,1) 57%, rgba(21,153,180,1) 98%); /*https://cssgradient.io/*/
+    -webkit-background-clip: text; /*depende decompatibilidad*/
+    -webkit-text-fill-color: transparent; /*tomado de web*/
+}
+    
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    max-height: 348px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+        
+}
+
+.galeria>img{
+    width: 316px;
+    height: 202px;
+    transition: transform 1s;
+}
+
+.galeria img:hover{
+    transform: scale(1.5);
+    
+}
+
+footer{
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 1em;
+    font-weight: 300;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+    font-size: 1.2rem;
+}
+
